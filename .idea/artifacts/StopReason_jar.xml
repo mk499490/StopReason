@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StopReason:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/StopReason_jar</output-path>
+    <root id="archive" name="StopReason.jar">
+      <element id="module-output" name="StopReason" />
+    </root>
+  </artifact>
+</component>
