@@ -8,7 +8,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin{
     @Override
     public void onEnable(){
-        this.getCommand("stop").setExecutor(new StopCommandWithReason());
+        this.getCommand("stop").setExecutor(new StopReason());
+        this.getCommand("restart").setExecutor(new RestartReason());
         this.getLogger().info("Plugin has been enabled!");
     }
 
