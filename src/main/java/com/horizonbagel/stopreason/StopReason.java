@@ -9,7 +9,7 @@ import org.bukkit.entity.Player;
 /**
  * Created by mk499490 on 2017/01/08.
  */
-public class StopCommandWithReason implements CommandExecutor {
+public class StopReason implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!sender.hasPermission("bukkit.command.stop")) {
@@ -24,9 +24,9 @@ public class StopCommandWithReason implements CommandExecutor {
                 String reason = args[0];
                 for (Player players : Bukkit.getOnlinePlayers()) {
                     players.kickPlayer(reason);
-                    Bukkit.shutdown();
-                    return true;
                 }
+                Bukkit.shutdown();
+                return true;
             }
         }
         return false;
