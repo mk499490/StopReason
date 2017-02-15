@@ -1,5 +1,5 @@
 name: StopReason
-version: 20170123a
+version: 20170215a
 author: mk499490
 main: com.horizonbagel.stopreason.Main
 website: https://www.horizonbagel.com/stopreason
@@ -7,3 +7,6 @@ commands:
   stop:
     description: Stop the server with reason.
     usage: /stop [reason]
+  restart:
+    description: Restart the server with reason.
+    usage: /restart [reason]
