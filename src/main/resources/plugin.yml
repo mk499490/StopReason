@@ -1,5 +1,9 @@
 name: StopReason
+<<<<<<< HEAD:src/main/resources/plugin.yml
 version: 20170124
+=======
+version: 20170215a
+>>>>>>> develop:src/main/resources/plugin.yml
 author: mk499490
 main: com.horizonbagel.stopreason.Main
 website: https://www.horizonbagel.com/stopreason
@@ -7,3 +11,6 @@ commands:
   stop:
     description: Stop the server with reason.
     usage: /stop [reason]
+  restart:
+    description: Restart the server with reason.
+    usage: /restart [reason]
