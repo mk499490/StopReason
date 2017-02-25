@@ -1,4 +1,4 @@
-package com.horizonbagel.stopreason;
+package com.mk499490.stopreason;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

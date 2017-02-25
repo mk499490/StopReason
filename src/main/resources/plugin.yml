@@ -5,7 +5,7 @@ version: 20170124
 version: 20170215a
 >>>>>>> develop:src/main/resources/plugin.yml
 author: mk499490
-main: com.horizonbagel.stopreason.Main
+main: Main
 website: https://www.horizonbagel.com/stopreason
 commands:
   stop:
