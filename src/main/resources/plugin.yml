@@ -1,9 +1,5 @@
 name: StopReason
-<<<<<<< HEAD:src/main/resources/plugin.yml
-version: 20170124
-=======
 version: 20170215a
->>>>>>> develop:src/main/resources/plugin.yml
 author: mk499490
 main: Main
 website: https://www.horizonbagel.com/stopreason
