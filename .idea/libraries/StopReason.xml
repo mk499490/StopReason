@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="StopReason">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/StopReason_jar/StopReason.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

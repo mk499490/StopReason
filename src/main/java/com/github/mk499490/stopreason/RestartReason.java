@@ -1,4 +1,4 @@
-package com.mk499490.stopreason;
+package com.github.mk499490.stopreason;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -11,6 +11,7 @@ import org.bukkit.entity.Player;
  */
 public class RestartReason implements CommandExecutor{
     @Override
+    @SuppressWarnings("deprecation")
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!sender.hasPermission("bukkit.command.restart")) {
             sender.sendMessage("You don't have permissions!");
@@ -24,7 +25,7 @@ public class RestartReason implements CommandExecutor{
             if (!(args.length == 0)){
                 String reason = args[0];
                 for (Player players : Bukkit.getOnlinePlayers()) {
-                    players.kickPlayer(reason);
+                    players.kickPlayer(reason); // "players.kick" won't work on Spigot
                 }
                 Bukkit.spigot().restart();
                 return true;
